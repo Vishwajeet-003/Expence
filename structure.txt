@@ -1,0 +1,15 @@
+expense_tracker/
+├── app/
+│   ├── static/
+│   │   ├── css/
+│   │   └── js/
+│   ├── templates/
+│   ├── uploads/
+│   └── utils/
+├── instance/
+├── venv/
+├── .env
+├── .gitignore
+├── config.py
+├── requirements.txt
+└── run.py
