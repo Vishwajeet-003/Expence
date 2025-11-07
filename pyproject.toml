@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "expense-tracker"
+version = "0.1.0"
+description = "Expense Tracking Application"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+flask = "2.3.3"
+Werkzeug = "2.3.7"
+python-dotenv = "1.0.0"
+pandas = "1.5.3"
+opencv-python-headless = "4.8.0.74"
+pytesseract = "0.3.10"
+Pillow = "9.5.0"
+numpy = "1.24.3"
+gunicorn = "21.2.0"
