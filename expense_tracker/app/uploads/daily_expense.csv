@@ -1,0 +1,11 @@
+Date,Category,Payment_Method,Amount (INR)
+01-11-2025,Food,UPI,120
+01-11-2025,Transport,Cash,40
+02-11-2025,Grocery,UPI,350
+02-11-2025,Entertainment,Debit Card,499
+03-11-2025,Petrol,Credit Card,700
+03-11-2025,Food,UPI,450
+04-11-2025,Bills,Net Banking,980
+05-11-2025,Health,UPI,230
+06-11-2025,Grocery,UPI,1250
+07-11-2025,Food,Cash,180
