@@ -1,4 +1,8 @@
-from app import app
+from flask import Flask
+from app import app as flask_app
 
 # This is the Vercel entrypoint
-app = app
+app = flask_app
+
+if __name__ == '__main__':
+    app.run()

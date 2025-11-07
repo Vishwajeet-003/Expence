@@ -3,7 +3,7 @@
     "builds": [
         {
             "src": "api/app.py",
-            "use": "@vercel/python@3.1.0",
+            "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
                 "runtime": "python3.9"
@@ -13,7 +13,12 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "api/app.py"
+            "dest": "/api/app.py"
         }
-    ]
+    ],
+    "env": {
+        "PYTHONPATH": ".",
+        "FLASK_APP": "api/app.py",
+        "FLASK_ENV": "production"
+    }
 }
