@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "functions": {
-        "api/app.py": {
-            "memory": 1024,
-            "maxDuration": 10
-        }
-    },
     "builds": [
         {
             "src": "api/app.py",
@@ -21,9 +15,5 @@
             "src": "/(.*)",
             "dest": "api/app.py"
         }
-    ],
-    "env": {
-        "PYTHONPATH": ".",
-        "PYTHON_VERSION": "3.9"
-    }
+    ]
 }
